@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+  margin: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+
+/*---------- HEADER ----------*/
+
+header {
+  height: 300px;
+  width: 100%;
+  background: #e3e3e3;
+}
+
+
+/*---------- CONTENT AREA ----------*/
+
+.col-3 {
+  width: 100%;
+  height: 320px;
+  float: left;
+}
+
+#column-1 {
+  background: #8A2BE2;
+}
+
+#column-2 {
+  background: #5F9EA0;
+}
+
+#column-3 {
+  background: #DC143C;
+}
+
+
+/*---------- FOOTER ----------*/
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: #e#F0F8FF;
+}
+
+
+/*---------- TABLET ----------*/
+/* Change the background colors below */
+
+@media (min-width: 768px) {
+  header {
+    background-color:#556B2F;
+  }
+
+  #column-1 {
+    background-color:#8B008B;
+  }
+
+  #column-2 {
+    background-color:#87CEFA;
+  }
+
+  #column-3 {
+    background-color:#FF0000;
+  }
+
+  footer {
+    background-color:#2E8B57;
+  }
+  
+}
+/*---------- Monitors ----------*/
+@media (min-width: 1200px) {
+  header {
+    background-color:#7CFC00;
+  }
+  #column-1 {
+    background-color:#A0522D;
+  }
+  #column-2 {
+    background-color:#EE82EE;
+  }
+  #column-3 {
+    background-color:#708090;
+  }
+  footer {
+    background-color:#008080;
+  }
+ 
+}
+
+/*---------- Desktops ----------*/
+@media (min-width: 1200px) {
+  header {
+    background-color: #00FF7F;
+  }
+
+  #column-1 {
+    background-color: #FA8072;
+  }
+
+  #column-2 {
+    background-color: #BC8F8F;
+  }
+
+  #column-3 {
+    background-color:#FFC0CB;
+  }
+
+  footer {
+    background-color:#808000;
+  }
+   
+}
